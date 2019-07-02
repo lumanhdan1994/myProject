@@ -1,0 +1,41 @@
+#Header {
+  background-color: $primary-color;
+  .header-top {
+    background-color: $primary-color-dark;
+    width: 100%;
+    max-height: 100%;
+    .header-log-in {
+      padding-right: 10px;
+      margin: 5px 10px 5px 0;
+      border-right: 1px solid $text-color;
+      .log-in {
+        text-decoration: none;
+        color: $text-color;
+        font-size: 15px;
+        font-weight: 500;
+        i {
+          padding-right: 10px;
+          font-size: 23px;
+        }
+      }
+    }
+    .header-khuvuc {
+      font-size: 15px !important;
+      font-weight: 500;
+      i {
+        padding-right: 10px;
+        color: $text-color;
+      }
+      .btn {
+        color: $text-color !important;
+        padding: 0 !important;
+        font-size: 15px !important;
+        font-weight: 500;
+      }
+      .khuvuc-scroll {
+        z-index: 10000;
+      }
+    }
+  }
+  
+}
